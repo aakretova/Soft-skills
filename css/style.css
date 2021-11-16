@@ -1,0 +1,388 @@
+:root{
+    --color1: #45ADBF;
+    --color2: #FB981E;
+    --color3: #E4FBFF;
+    --color4: #F5F5F5;
+    --color5: #BDBDBD;
+    --color6: #333333;
+}
+
+header{
+    
+    color: var(--color6);
+}
+
+footer{
+    color: var(--color6);
+}
+
+body{
+    font-family: 'Lato';
+    font-style: normal;
+    color: var(--color6);   
+}
+
+.body_bg{
+    background-image: url(/img/svg/bg1.svg), url(/img/svg/bg2.svg);
+    background-repeat: no-repeat;
+    background-position: 704px 650px, -200px 1300px;
+}
+
+.header_text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.header_person-name{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header_person-status{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.university{
+    padding-bottom: 50px;
+}
+
+h1{
+    color: var(--color2);
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 90px;
+    padding-bottom: 60px;
+}
+
+h2{
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 900;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 28px;
+    color: #45ADBF;
+    font-weight: 700;
+}
+
+h4{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h5{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+h6{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #45ADBF;
+}
+
+h7{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+h8{
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+.courses_card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card_img{
+    border-radius: 20px;
+    align-self: stretch;
+}
+
+.card_text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.card_link{
+    font-size: 14px;
+    line-height: 20px;
+    color: #2A98A8;
+}
+
+.contacts{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.contacts:last-child{
+    padding-bottom: 0px;
+}
+
+.email_form{
+    padding-bottom: 140px;
+}
+
+.email_form_wrapper{
+    background: #F5F5F5;
+    border-radius: 20px;
+}
+
+.email_form_title{
+    color: var(--color6);
+    padding: 60px 0 20px 60px;
+}
+
+.email_form_text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding: 0px 0 40px 60px;
+}
+
+.email_img{
+    padding-right: 40px;
+}
+
+.email_input{
+    margin-left: 60px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    padding: 15px;
+}
+
+.intro_img{
+    border-radius: 20px;
+}
+
+.intro_btn{
+    background: #45ADBF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 20px 30px;
+    border: none;
+}
+
+.intro_btn:hover{
+    background: #1A8595;
+}
+
+.skills_list{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+
+
+.for_title{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.for_text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.lessons{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    padding: 20px 30px 30px;
+}
+
+.dott{
+    text-decoration: none; /* Убираем подчеркивание */
+    border-bottom: 1px dashed #2A98A8
+}
+
+.lesson_img{
+    background: rgba(0, 0, 0, 0.3);
+    background: #9C9C9C;
+    border-radius: 10px;
+}
+
+.lesson_h1{
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.lesson_h2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.lesson_text{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.lesson_h3{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--color1);
+}
+
+.scroll{
+    height: 850px;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 4px; /* ширина для вертикального скролла */
+    background-color: var(--color5);
+    border-radius: 2px;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: var(--color1);
+    border-radius: 2px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: var(--color5);
+}
+
+.card_wrapper{
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.card_text_2{
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.card_btn{
+    background: #F5F5F5;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: var(--color6);
+    border: none;
+}
+
+.card_btn:hover{
+    background: #E4FBFF;
+    color: #333333;
+}
+
+.add_card{
+    background: url(/img/add.jfif);
+    background-position: center;
+    border-radius: 20px;
+    padding: 124px 10px 10px;
+    min-width: 310;
+    max-width: 310;
+    background-size: cover;
+}
+
+.add_title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.add_title-mini{
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+
+.add_btn{
+    margin-top: 30px;
+    padding: 15px 17px;
+    background: #45ADBF;
+    border-radius: 40px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.add_btn:hover{
+    background: #1A8595;
+}
+
+.courses_btn:hover{
+    background: #1A8595;
+}
+
+.add_text{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.add_text_mini{
+    padding-top: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+}
+
+.courses_btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    justify-content: center;
+    background: #45ADBF;
+    border-radius: 40px;
+    padding: 20px 30px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    border: none;
+    margin-bottom: 140px;
+    margin-top: 40px;
+}
+
+a:hover {
+    color: #1A8595; /* Цвет ссылки при наведении */ 
+    text-decoration: underline; /* Добавляем подчёркивание */
+   }
